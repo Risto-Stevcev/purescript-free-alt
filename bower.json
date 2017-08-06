@@ -1,0 +1,22 @@
+{
+  "name": "purescript-free-alt",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^3.1.0",
+    "purescript-console": "^3.0.0",
+    "purescript-control": "^3.3.0",
+    "purescript-foldable-traversable": "^3.4.0",
+    "purescript-functors": "^2.2.0",
+    "purescript-lists": "^4.9.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^3.0.0",
+    "purescript-aff": "^3.1.0",
+    "purescript-spec": "^1.0.0"
+  }
+}

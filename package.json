@@ -1,0 +1,29 @@
+{
+  "name": "purescript-free-alt",
+  "version": "0.1.0",
+  "description": "An implementation of free alt in purescript",
+  "main": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "pulp build -- --censor-lib --stash --source-maps",
+    "test": "pulp build -I test -- --censor-lib --stash --source-maps && pulp test",
+    "clean": "rm -rf .pulp-cache output"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Risto-Stevcev/purescript-free-alt.git"
+  },
+  "keywords": [
+    "purescript",
+    "free",
+    "alt"
+  ],
+  "author": "Risto Stevcev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Risto-Stevcev/purescript-free-alt/issues"
+  },
+  "homepage": "https://github.com/Risto-Stevcev/purescript-free-alt#readme"
+}
