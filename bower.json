@@ -1,5 +1,11 @@
 {
   "name": "purescript-free-alt",
+  "description": "An implementation of free alt in purescript",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Risto-Stevcev/purescript-free-alt.git"
+  },
   "ignore": [
     "**/.*",
     "node_modules",
